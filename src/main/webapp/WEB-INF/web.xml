@@ -25,4 +25,14 @@
     <servlet-name>SecondServlet</servlet-name>
     <url-pattern>/sec</url-pattern>
   </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ProductServlet</servlet-name>
+    <servlet-class>com.geekbrains.app.ProductServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ProductServlet</servlet-name>
+    <url-pattern>/prod</url-pattern>
+  </servlet-mapping>
 </web-app>
